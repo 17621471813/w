@@ -21,14 +21,6 @@
         </div>
        
        <router-view/>
-
-       <!-- <div class="contl" v-if = 'bottom'>
-          
-               <li @click='clickLeft' class='el-icon-arrow-left'></li>
-       
-               <li @click='clickRig' class='el-icon-arrow-right'></li>
-     
-       </div> -->
       
     </div>
 
