@@ -63,5 +63,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".postcssrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17621471813/zhoupin.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17621471813/zhoupin/issues"
+  },
+  "homepage": "https://github.com/17621471813/zhoupin#readme"
 }
