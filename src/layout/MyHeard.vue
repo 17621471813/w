@@ -22,13 +22,13 @@
        
        <router-view/>
 
-       <div class="contl" v-if = 'bottom'>
+       <!-- <div class="contl" v-if = 'bottom'>
           
                <li @click='clickLeft' class='el-icon-arrow-left'></li>
        
                <li @click='clickRig' class='el-icon-arrow-right'></li>
      
-       </div>
+       </div> -->
       
     </div>
 
@@ -41,7 +41,7 @@ export default {
 
     data () {
           return{
-              bottom: null,
+            
              isCor: null,
                 color: 'rout',
              porten:[
@@ -65,21 +65,9 @@ export default {
 
             this.isCor = index;
             this.bottom = true;
-            this.$store.state.name = true;
         
-        },
-        clickLeft () {
-            this.$router.go(-1);
-             this.isCor = null;
-        },
-        clickRig  () {
-            this.$router.go(1);
-         
+        
         }
-   },
-   created () {
-       this.bottom = false;
-       this.$store.state.name = false;
    }
   
 }
