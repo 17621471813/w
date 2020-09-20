@@ -9,12 +9,12 @@
            <div class="wrapper">
                 <dl  class='details' v-for='(itsh, index) in show.children' :key= 'index' >
         
-                <dd  >
-                    <ul>
+                <dd >
+                    <ul >
                    
                         <li ref='name' >{{ itsh.name}}</li>
                         <li ref='flavor' class='fontCor' >{{ itsh.flavor}}</li>
-                        <li  ref='sell'  class = 'fontCor'><span>月售{{itsh.sell}}份</span> <span>好评率{{ itsh.hegtOp }} %</span> </li>
+                        <li  ref='sell'  class = 'fontCor'><span>月售{{itsh.sell}}份</span> <span>好评率{{ itsh.hegtOP }} %</span> </li>
                         <li ref='money' >￥{{ itsh.money}}</li>
                     </ul>
                      <div class='add' > 

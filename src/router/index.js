@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import MyHeard from '@/layout/MyHeard'
+import HomePage from '@/layout/HomePage'
 import MyContent from "@/components/MyContent"
 import ComMent from "@/components/ComMent"
 import Store from "@/components/Store"
@@ -16,8 +16,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'MyHeard',
-      component: MyHeard,
+      name: 'HomePage',
+      component: HomePage,
       redirect: 'MyContent',
       children: [
         {
