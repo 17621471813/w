@@ -1,5 +1,5 @@
 <template>
-    <div class="heard">
+    <div class="hear">
 <div class="heaTop">
        <img src="../assets/picture/rexiao/top.jpg" alt="">
         <ul>

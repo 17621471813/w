@@ -18,6 +18,8 @@ export default {
 
 }
 body{
+  height:100%;
+  border: 1px solid black;
   overflow: hidden;
 }
 
