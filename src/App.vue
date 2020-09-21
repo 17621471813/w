@@ -17,5 +17,8 @@ export default {
   list-style: none;
 
 }
+body{
+  overflow: hidden;
+}
 
 </style>
